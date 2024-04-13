@@ -44,7 +44,7 @@ public class UserServices {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-
+/*Password Encrypter has been added in the Register and Login Method for pwd Encryption*/
     public User registerUser(User user) throws UserException {
         boolean flag = true;
 
